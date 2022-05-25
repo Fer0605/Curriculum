@@ -1,0 +1,25 @@
+[
+	{
+		"Nombre": "Fernando Abiel Gutiérrez Chávez",
+		"FechaNacimiento": "06 de Mayo del 2001",
+		"Nacionalidad": "Mexicana",
+		"PuestoSolicitado": "Auxiliar de Sistemas",
+		"Telefono": "5554649737",
+		"Correo": "2002003@utrivieramaya.edu.mx",
+		"Domicilio": "Quintana Roo, Playa del Carmen, Solidaridad ",
+		"Paqueteria": "Excel"
+	},
+	{
+		"Empresa": "SIC Arquitectura y Remodelación",
+		"Puesto": "Auxiliar de Sistemas",
+		"FechaIngreso": "22 de Mayo del 2020",
+		"FechaTermino": " A la fecha"
+	},
+	{
+		"Escuela": "Universidad Tecnologica de la Riviera Maya",
+		"GradodeEstudio": "Universitario",
+		"Carrera": "Ingeniería en Desarrollo y Gestión de Software",
+		"FechadeIngreso": "01 de Septiembre del 2020",
+		"FechadeTermino": "A la fecha"
+	}
+]
