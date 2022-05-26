@@ -3,7 +3,7 @@ const CACHE_NAME = 'v1_cache_curriculum',
 urlsToCache = [
     'https://Fer0605.github.io/Curriculum/',
     'https://Fer0605.github.io/Curriculum/index.html',
-    'https://Fer0605.github.io/Curriculum/script.js'
+    'https://Fer0605.github.io/Curriculum/script.js',
     'https://Fer0605.github.io/Curriculum/fetch.js'
 ]
 
