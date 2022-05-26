@@ -9,7 +9,7 @@ function loadInfo() {
     const showInfo = (data) => {
         console.log(data)
         let Nombre = "";
-        let FechadeNacimiento = "";
+        let Fechadenacimiento = "";
         let Nacionalidad = "";
         let PuestoSolicitado= "";
         let Telefono = "";
@@ -17,16 +17,16 @@ function loadInfo() {
         let Domicilio = "";
         let Paqueteria = "";
         let ExperienciaLaboral = "";
-        let Eduación = "";
+        let Educación = "";
 
         Nombre += `
             <li>
                 ${data[0].Nombre}
             </li> 
         `;
-        FechadeNacimiento += `
+        Fechadenacimiento += `
             <li>
-             ${data[0].FechadeNacimiento}
+             ${data[0].Fechadenacimiento}
             </li>
         `;
         Nacionalidad += `
@@ -73,7 +73,7 @@ function loadInfo() {
             Fecha Termino: ${data[1].FechaTermino}
             </li>
         `;
-        Eduación += `
+        Educación += `
             <li>
             Escuela: ${data[2].Escuela}
             </li>
@@ -91,7 +91,7 @@ function loadInfo() {
             </li>
         `;
         document.getElementById('Nombre').innerHTML = Nombre;
-        document.getElementById('Fecha de Nacimiento').innerHTML = FechadeNacimiento;
+        document.getElementById('Fecha de nacimiento').innerHTML = Fechadenacimiento;
         document.getElementById('Nacionalidad').innerHTML = Nacionalidad;
         document.getElementById('Puesto Solicitado').innerHTML = PuestoSolicitado;
         document.getElementById('Telefono').innerHTML = Telefono;
@@ -99,7 +99,7 @@ function loadInfo() {
         document.getElementById('Domicilio').innerHTML = Domicilio;
         document.getElementById('Paqueteria').innerHTML = Paqueteria;
         document.getElementById('Experiencia Laboral').innerHTML = ExperienciaLaboral;
-        document.getElementById('Eduación').innerHTML = Eduación;
+        document.getElementById('Educación').innerHTML = Educación;
     }
 }
 
