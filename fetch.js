@@ -9,7 +9,7 @@ function loadInfo() {
     const showInfo = (data) => {
         console.log(data)
         let Nombre = "";
-        let Fechadenacimiento = "";
+        let FechadeNacimiento = "";
         let Nacionalidad = "";
         let PuestoSolicitado= "";
         let Telefono = "";
@@ -24,9 +24,9 @@ function loadInfo() {
                 ${data[0].Nombre}
             </li> 
         `;
-        Fechadenacimiento += `
+        FechadeNacimiento += `
             <li>
-             ${data[0].Fechadenacimiento}
+             ${data[0].FechadeNacimiento}
             </li>
         `;
         Nacionalidad += `
@@ -91,7 +91,7 @@ function loadInfo() {
             </li>
         `;
         document.getElementById('Nombre').innerHTML = Nombre;
-        document.getElementById('Fecha de nacimiento').innerHTML = Fechadenacimiento;
+        document.getElementById('Fecha de Nacimiento').innerHTML = FechadeNacimiento;
         document.getElementById('Nacionalidad').innerHTML = Nacionalidad;
         document.getElementById('Puesto Solicitado').innerHTML = PuestoSolicitado;
         document.getElementById('Telefono').innerHTML = Telefono;
